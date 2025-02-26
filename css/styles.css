@@ -1,0 +1,43 @@
+body {
+    font-family: Arial, sans-serif; /* Fonte */
+    display: flex; /* Usa o FlexBox para exibir conteúdo */
+    justify-content: center; /* Centraliza na horizontal */
+    height: 100vh; /* Altura da página é todo o conteúdo dela */
+    align-items: center; /* Centraliza na vertical */
+    background-color: rgb(163, 163, 163);
+}
+
+.container {
+     background-color: rgb(207, 207, 207);
+     padding: 20px; /* Espaçamento interno */
+     border-radius: 10px;  /* Bordas arredondadas */
+     box-shadow: 4px 8px rgb(0, 0, 0); /* Sombreamento 4px (horizontal) 8px (vertical) */
+     text-align: center; /* Centraliza o texto*/
+     transition: 0.5s;
+}
+
+h2 {
+    padding: 10px;   
+}
+
+button {
+    background-color: rgb(70, 70, 70);
+    color: rgb(255, 255, 255);
+    border: none;
+    padding: 5px; /* Espaçamento interno */
+    border-radius: 5px; /* Bordas arredondadas */
+    cursor: pointer;
+    transition: 200ms;  
+}
+
+/* Cria efeito ao passar o mouse no botão */
+button:hover {
+    background-color: rgb(0, 0, 0);
+}
+
+.imagem {
+    border-radius: 50%;
+    width: 170px; /* Largura */
+    height: 170px; /* Altura */
+    margin-bottom: 10px; /* Espaçamento externo */
+}
