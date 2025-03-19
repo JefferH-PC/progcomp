@@ -49,3 +49,12 @@ img {
 h2{
     text-align: center;
 }
+ol li {
+    padding-bottom: 10px;
+}
+table tr td {
+    padding: 20px;
+}
+table{
+    margin: 0 auto; /*Centraliza a tabela na página*/
+}
