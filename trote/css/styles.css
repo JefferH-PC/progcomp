@@ -1,0 +1,32 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0; /* Espaçamento externo da página */
+    padding: 0; /* Espaçamento interno da página */
+    background-color: #f4f4f4;
+    text-align: center; /* Texto centralizado */
+}
+header {
+    background-color: #28a745;
+    color: white;
+    padding: 15px 0px; /* Espaçamento Interno - 15px = Acima e Abaixo e 0px = Direita e Esquerda */
+    font-size: 24px;
+}
+nav {
+    background-color: #007bff;
+    padding: 10px; /* Espaçamento interno do menu */
+    display: flex; /* Flex Boxing */
+    justify-content: space-between; /* Espaço entre os elementos do menu */
+    align-items: center; /* Alinhamento na vertical */
+}
+#links-menu {
+    display: flex;
+    gap: 30px; /* Distância entre os itens do menu */
+}
+nav a {/* Configura os links do menu */
+    color: white;
+    text-decoration: none;
+    padding: 10px 15px; /* 10px = Acima e Abaixo e 15px = Direita e Esquerda*/
+    font-size: 18px;
+    background-color: #0056b3;
+    border-radius: 5px; /* Cantos arredondados */
+}
