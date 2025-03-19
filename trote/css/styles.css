@@ -30,3 +30,22 @@ nav a {/* Configura os links do menu */
     background-color: #0056b3;
     border-radius: 5px; /* Cantos arredondados */
 }
+img {
+    width: 120px;
+    height: auto;
+    margin-right: 20px; /* Espaçamento externo à direita */
+    border-radius: 10px;
+}
+.container {
+    width: 80%; /* Largura de 80% da largura da página */
+    background-color: #ffffff;
+    border-radius: 10px;
+    /* Espaçamento externo 20px acima e abaixo */
+    /* Espaçamento externo auto à direita e à esquerda */
+    margin: 20px auto;
+    padding: 20px; /* Espaçamento interno */
+    text-align: justify;
+}
+h2{
+    text-align: center;
+}
