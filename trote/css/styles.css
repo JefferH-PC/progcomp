@@ -58,3 +58,26 @@ table tr td {
 table{
     margin: 0 auto; /*Centraliza a tabela na página*/
 }
+.azul {
+    background-color: navy;
+    color: white;
+}
+.laranja {
+    background-color: orange;
+}
+.preta {
+    background-color: black;
+    color: white;
+}
+.roxa {
+    background-color: rgb(192, 87, 225);
+}
+.verde {
+    background-color: #32cf57;
+}
+.vermelha {
+    background-color: rgb(247, 61, 61);
+}
+.tabela {
+    margin-top: 30px;
+}
