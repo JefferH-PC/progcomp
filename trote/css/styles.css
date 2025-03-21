@@ -6,7 +6,7 @@ body {
     text-align: center; /* Texto centralizado */
 }
 header {
-    background-color: #28a745;
+    background-color: #eac026;
     color: white;
     padding: 15px 0px; /* Espaçamento Interno - 15px = Acima e Abaixo e 0px = Direita e Esquerda */
     font-size: 24px;
@@ -46,6 +46,12 @@ img {
     padding: 20px; /* Espaçamento interno */
     text-align: justify;
 }
+p {
+    text-indent: 30px;
+}
+.negrito {
+    font-weight: bold;
+}
 h2{
     text-align: center;
 }
@@ -57,6 +63,8 @@ table tr td {
 }
 table{
     margin: 0 auto; /*Centraliza a tabela na página*/
+    border: 2px solid black;
+    border-collapse: collapse;
 }
 .azul {
     background-color: navy;
@@ -78,6 +86,6 @@ table{
 .vermelha {
     background-color: rgb(247, 61, 61);
 }
-.tabela {
-    margin-top: 30px;
+.meta {
+    padding: 0 20px;
 }
