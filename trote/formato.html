@@ -9,25 +9,28 @@
     </head>
     <body>
         <header> <!-- Cabeçalho do corpo da página -->
-            Trote Solidário 2025
+            <h1 class="titulo__header">Trote Solidário - 2025</h1>
+            <nav> <!-- Barra de navegação (menu de opções) -->
+                <div id="links-menu">
+                    <a href="index.html"> Home </a>
+                    <a href="introducao.html"> Introdução </a>
+                    <a href="objetivo.html"> Objetivo </a>
+                    <a href="formato.html"> Formato </a>
+                    <a href="gincana.html"> Gincana </a>
+                    <a href="integracao.html"> Integração </a>
+                    <a href="observacoes.html"> Observações </a>
+                    <a href="calculadoras.html"> Calculadoras </a>
+                </div>
+                <img src="images/Trote.jpg" alt="Trote Solidário Uni-FACEF - 2025">
+            </nav>
         </header>
-        <nav> <!-- Barra de navegação (menu de opções) -->
-            <div id="links-menu">
-                <a href="index.html"> Home </a>
-                <a href="introducao.html"> Introdução </a>
-                <a href="objetivo.html"> Objetivo </a>
-                <a href="formato.html"> Formato </a>
-                <a href="gincana.html"> Gincana </a>
-                <a href="integracao.html"> Integração </a>
-                <a href="observacoes.html"> Observações </a>
-                <a href="calculadoras.html"> Calculadoras </a>
-            </div>
-            <img src="images/Trote.jpg" alt="Trote Solidário Uni-FACEF - 2025">
-        </nav>
+        <main>
         <!-- class poddemos reutilizar o estilo, id não -->
         <!-- id não pode ser reutilizado pois só temos um elemento por id-->
         <div class="container">
+            <hr>
             <h2> Formato </h2>
+            <hr>
             <p>A proposta para este ano são ações voltadas à comunidade, desde o ingresso 
                 do estudante na IES. Cada equipe será representada por <span class="negrito"> 3 padrinhos, formados 
                 pelos chefes de departamentos dos cursos (ou um docente por ele indicado).</span>
@@ -36,10 +39,10 @@
                 estabelecido. Os padrinhos vão atuar na orientação e condução das provas a serem 
                 cumpridas pelos calouros, contando com o apoio dos demais docentes do curso. 
                 Assim, o <span class="negrito"> SOLIDÁRIO Uni-FACEF 2025 </span>contará com duas etapas:</p>
-                <table border="1">
+                <table border="1" class="tabela__sem__header">
                     <tr>
                         <td><span class="negrito">1ª ETAPA</span></td>
-                        <td>
+                        <td class="tabela__sem__header">
                             <span class="negrito">GINCANA SOLIDÁRIA</span>
                             <ul> <!--Unordered list-->
                                 <li>ALIMENTOS E SUPLEMENTOS</li>
@@ -52,7 +55,7 @@
                     </tr>
                     <tr>
                         <td><span class="negrito">2ª ETAPA</span></td>
-                        <td>  
+                        <td class="tabela__sem__header">  
                             <span class="negrito">INTEGRAÇÃO E ENVOLVIMENTO - NOITE DE ENCERRAMENTO </span>
                             <ul>
                                 <li>HOMENAGEM A ESPORTISTAS FRANCANOS </li>
@@ -70,5 +73,6 @@
                 apresentação do regulamento e o sorteio referente às cores, salas de entrega da 
                 arrecadação e ordem de apresentação na noite de encerramento.</p>
         </div>
+        </main>
     </body>
 </html>

@@ -6,10 +6,18 @@ body {
     text-align: center; /* Texto centralizado */
 }
 header {
-    background-color: #eac026;
+    border-bottom: 3px solid black;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+}
+.titulo__header {
+    margin: 0 0;
+    padding: 10px;
+    font-size: 20px;
     color: white;
-    padding: 15px 0px; /* Espaçamento Interno - 15px = Acima e Abaixo e 0px = Direita e Esquerda */
-    font-size: 24px;
+    background-color: #ffd12a;
 }
 nav {
     background-color: #007bff;
@@ -24,14 +32,22 @@ nav {
 }
 nav a {/* Configura os links do menu */
     color: white;
+    border: 2px solid white;
     text-decoration: none;
     padding: 10px 15px; /* 10px = Acima e Abaixo e 15px = Direita e Esquerda*/
-    font-size: 18px;
+    font-size: 24px;
     background-color: #0056b3;
-    border-radius: 5px; /* Cantos arredondados */
+    border-top-left-radius: 25px; /* Cantos arredondados */
+    border-bottom-right-radius: 25px;
+}
+a:hover {
+    border: 2px solid #ffd12a;
+    color:#ffd12a;
+    transition-duration: 200ms;
+    transform: scale(1.1);
 }
 img {
-    width: 120px;
+    width: 90px;
     height: auto;
     margin-right: 20px; /* Espaçamento externo à direita */
     border-radius: 10px;
@@ -40,14 +56,15 @@ img {
     width: 80%; /* Largura de 80% da largura da página */
     background-color: #ffffff;
     border-radius: 10px;
+    border: 2px solid black;
     /* Espaçamento externo 20px acima e abaixo */
     /* Espaçamento externo auto à direita e à esquerda */
-    margin: 20px auto;
+    margin: 160px auto;
     padding: 20px; /* Espaçamento interno */
     text-align: justify;
 }
 p {
-    text-indent: 30px;
+    text-indent: 15px;
 }
 .negrito {
     font-weight: bold;
@@ -55,16 +72,24 @@ p {
 h2{
     text-align: center;
 }
-ol li {
+ol li{
     padding-bottom: 10px;
 }
 table tr td {
-    padding: 20px;
+    padding: 10px;
+    align-content: center;
+    width: 600px;
 }
 table{
     margin: 0 auto; /*Centraliza a tabela na página*/
     border: 2px solid black;
-    border-collapse: collapse;
+    border-radius: 3px;
+    border-collapse:collapse;
+}
+.tabela__sem__header{
+    width: 1200px;
+    justify-content: right;
+    text-align: justify;
 }
 .azul {
     background-color: navy;
@@ -88,4 +113,77 @@ table{
 }
 .meta {
     padding: 0 20px;
+}
+.palavra__laranja {
+    color:orange;
+}
+.palavra__roxa {
+    color: rgb(192, 87, 225);
+}
+.palavra__verde {
+    color: #32cf57;
+}
+.palavra__vermelha {
+    color: rgb(247, 61, 61);
+}
+h3 {
+    text-align: justify;
+}
+h6 {
+    margin-top: 5px;
+    margin-left: 1px;
+}
+thead {
+    text-align: center;
+}
+tbody {
+    text-align: center;
+}
+th {
+    padding: 0 20px;
+}
+.table__title {
+    text-align: center;
+}
+.container__azul__claro__info {
+    background-color: #91c6fe;
+    padding: 1px 15px;
+    border: 2px solid black;
+    border-radius: 10px;
+}
+.container__azul__claro__titulo {
+    background-color: #91c6fe;
+    padding: 1px;
+    margin-bottom: 2px;
+    border: 2px solid black;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+.container__azul__claro__info__encaixe {
+    background-color: #91c6fe;
+    padding: 1px 15px;
+    border: 2px solid black;
+    border-bottom-right-radius: 10px;
+    border-bottom-left-radius: 10px;
+}
+.linha__fundo__cinza__claro {
+    background-color:#c2c2c2;
+}
+.container__cinza__claro__titulo {
+    background-color: #dfdfdf;
+    padding: 1px;
+    margin-bottom: 2px;
+    border: 2px solid black;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+.container__cinza__claro__info__encaixe {
+    background-color: #dfdfdf;
+    padding: 1px 15px;
+    border: 2px solid black;
+    border-bottom-right-radius: 10px;
+    border-bottom-left-radius: 10px;
+}
+.sublinhado {
+    text-decoration: underline;
 }
