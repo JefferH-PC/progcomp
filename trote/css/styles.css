@@ -187,3 +187,6 @@ th {
 .sublinhado {
     text-decoration: underline;
 }
+.campos {
+    margin-bottom: 10px;
+}
