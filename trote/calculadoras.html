@@ -32,19 +32,93 @@
             <hr>
             <h2> Calculadoras </h2>
             <hr>
-            <form>
-                <div class="campos">
-                    <label> Mascote do time: </label>
-                    <input type="number" id="mascote">
-                </div>
-                <div class="campos">
-                    <label>Homenagem a um atleta: </label>
-                    <input type="number" id="homenagem">
-                </div>
-                <div class="campos">
-                    <button type="button" onclick="calcular()"> Calcular </button>
-                </div>
-            </form>
+            <div class="calculadora">
+                <form class="calculadora__form">
+                    <div>
+                    <ul class="calculadora__form__lista">
+                        <li>
+                            <label class="calculadora__campos__texto"> Caracterização: </label>
+                            <input class="calculadora__campos__input" type="number" id="caracter">
+                        </li>
+                        <li>
+                            <label class="calculadora__campos__texto"> Tarefa: </label>
+                            <input class="calculadora__campos__input" type="number" id="tarefa">
+                        </li>
+                        <li>
+                            <label class="calculadora__campos__texto calculadora__campos__texto"> Mascote do time: </label>
+                            <input class="calculadora__campos__input" type="number" id="mascote">
+                        </li>
+                        <li>
+                            <label class="calculadora__campos__texto">Homenagem a um atleta: </label>
+                            <input class="calculadora__campos__input" type="number" id="homenagem">
+                        </li>
+                        <li>
+                            <label class="calculadora__campos__texto calculadora__campos__texto"> Quantidade de litros de leite: </label>
+                            <input class="calculadora__campos__input" type="number" id="leite">
+                        </li>
+                        <li>
+                            <label class="calculadora__campos__texto"> Kit alimentação (Avulso): </label>
+                            <input class="calculadora__campos__input" type="number" id="kitAvulso">
+                        </li>
+                        <li>
+                            <label class="calculadora__campos__texto"> Suplemento (Avulso): </label>
+                            <input class="calculadora__campos__input" type="number" id="suplementoAvulso">
+                        </li>
+                            <li>
+                                <label class="calculadora__campos__texto"> Pacote de Arroz(5Kg): </label>
+                                <input class="calculadora__campos__input" type="number" id="arroz5kg">
+                            </li>
+                        </li>
+                        <li>
+                            <label class="calculadora__campos__texto"> Pacote de Arroz(1Kg): </label>
+                            <input class="calculadora__campos__input" type="number" id="arroz1kg">
+                        </li>
+                        <li>
+                            <label class="calculadora__campos__texto"> Pacote de Feijão(2Kg): </label>
+                            <input class="calculadora__campos__input" type="number" id="feijao2kg">
+                        </li>
+                        <li>
+                            <label class="calculadora__campos__texto"> Pacote de Feijão(1Kg): </label>
+                            <input class="calculadora__campos__input" type="number" id="feijao1kg">
+                        </li>
+                        <li>
+                            <label class="calculadora__campos__texto"> Pacote de Macarrão(400/500 gramas): </label>
+                            <input class="calculadora__campos__input" type="number" id="macarrao">
+                        </li>
+                        <li>
+                            <label class="calculadora__campos__texto"> Óleo (900 ml): </label>
+                            <input class="calculadora__campos__input" type="number" id="oleo">
+                        </li>
+                        <li>
+                            <label class="calculadora__campos__texto"> Sangue: </label>
+                            <input class="calculadora__campos__input" type="number" id="sangue">
+                        </li>
+                        <li>
+                            <label class="calculadora__campos__texto"> Sangue(adicional): </label>
+                            <input class="calculadora__campos__input" type="number" id="sangueAd">
+                        </li>
+                        <li>
+                            <label class="calculadora__campos__texto"> Ação Social: </label>
+                            <input class="calculadora__campos__input" type="number" id="acao">
+                        </li>
+                        <li>
+                            <label class="calculadora__campos__texto"> Conteúdo(arrecadação): </label>
+                            <input class="calculadora__campos__input" type="number" id="contArre">
+                        </li>
+                        <li>
+                            <label class="calculadora__campos__texto"> Conteúdo(ação): </label>
+                            <input class="calculadora__campos__input" type="number" id="contAcao">
+                        </li>
+                    </ul>
+                    <div class="calculadora__resultado">
+                    <label id="soma"></label>
+                    </div>
+                    <div class="calculadora__acao">
+                        <button class="calculadora__botao" type="button" onclick="calcular()"> Calcular</button>
+                    </div>
+                    </div>
+                </form>
+            </div>
         </div>
         </main>
     </body>
